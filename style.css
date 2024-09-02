@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url(assets/Image/bg4.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 90vh;
+  position: relative;
+}
+.main .box {
+  height: 90vh;
+  width: 100%;
+  opacity: 0.44;
+  background-color: black;
+  position: absolute;
+  top: 0px;
+}
+nav {
+  display: flex;
+  max-width: 76vw;
+  margin: auto;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 62px;
+}
+nav img {
+  width: 148px;
+  position: relative;
+  z-index: 10;
+}
+nav div {
+  position: relative;
+  z-index: 10;
+}
+.hero {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  z-index: 1;
+  height: calc(100% - 62px);
+  padding: 0 30px;
+}
+.hero #h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Martel Sans", sans-serif;
+  text-align: center;
+}
+.hero #h2 {
+  font-size: 1.5rem;
+  font-family: "Martel Sans", sans-serif;
+  text-align: center;
+}
+.sepration {
+  height: 7px;
+  background-color: rgb(46, 45, 45);
+}
+.btn {
+  padding: 7px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.579);
+  color: white;
+}
+.btn-red-sm {
+  background-color: red;
+  color: white;
+  font-size: 14px;
+}
+.btn-red {
+  background-color: red;
+  color: white;
+  font-size: 25px;
+}
+input {
+  background-color: rgba(0, 0, 0, 0.579);
+  font-size: 20px;
+  padding: 10px 65px 7px 26px;
+  color: white;
+}
+.superman {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+.box1 {
+  height: 350px;
+  width: 38vw;
+  position: relative;
+  margin-top: 180px;
+}
+#box1h {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+#box1p {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+.box2 {
+  height: 550px;
+  width: 38vw;
+}
+.box2 img {
+  background-size: 98%;
+  background-repeat: no-repeat;
+  margin-left: 0px;
+  position: relative;
+  z-index: 1;
+}
+.box2 video {
+  position: relative;
+  bottom: 387px;
+  left: 76px;
+}
+.batman {
+  color: white;
+  display: flex;
+  height: 550px;
+  max-width: 80vw;
+  margin: auto;
+}
+.box22 {
+  font-family: "Martel Sans", sans-serif;
+  margin: auto;
+}
+.animation{
+  border: 2px solid white;
+  border-radius: 14px;
+  height: 103px;
+  max-width: 316px;
+  margin: auto;
+  display: flex;
+  position: relative;
+  bottom: 145px;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+#logi{
+  width: 200px;
+}
+.hrx1 img{
+  max-height: 80px;
+  max-width: 57px;
+  margin: 10px;
+}
+#hrx2{
+  text-align: left;
+  font-family: "Martel Sans", sans-serif;
+  font-size: 1.1rem;
+}
+#hrx21{
+  text-align: left;
+  font-family: "Martel Sans", sans-serif;
+  margin-top: 0px;
+  color: rgb(40 100 255);
+}
+.hrx3{
+  align-items: center;
+}
+.hrx3 img{
+  width: 48px;
+  margin-right: 10px;
+}
+.box22 h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+.box22 p {
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+.hulk {
+  display: flex;
+  margin: auto;
+  max-width: 78vw;
+  height: 550px;
+}
+.box21 {
+  color: white;
+  margin: auto;
+}
+.box21 h1 {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+}
+.box21 p {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+.box31 {
+  margin: auto;
+  max-height: 300px;
+}
+.box31 img {
+  position: relative;
+  z-index: 1;
+  height: 434px;
+}
+.box31 video {
+  position: relative;
+  left: 108px;
+  bottom: 400px;
+}
+.ironman{
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  width: 80vw;
+  margin: auto;
+}
+.box112{
+  margin: auto;
+}
+.box112 h2{
+  font-family: "Martel Sans", sans-serif;
+  font-size: 3rem;
+  color: white;
+  font-weight: 900;
+}
+.box112 p{
+  font-family: "Martel Sans", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 400;
+}
